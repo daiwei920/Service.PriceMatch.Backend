@@ -1,0 +1,14 @@
+{
+  "app": "node --require=ts-node/register --unhandled-rejections=strict ./bin/main.ts",
+  "context": {
+    "config" : {
+      "aws_region": "ap-southeast-2",
+      "aws_account_name": "466333965117",
+      "environment": "dev",
+      "domainName": "price.cyberlark.com.au",
+      "certificateArnSydney": "arn:aws:acm:ap-southeast-2:466333965117:certificate/294fb790-2b93-4439-b1e0-8cd133d385b7",
+      "zoneId": "Z0554009MEP7RPQSO42J",
+      "zoneDomain": "price.cyberlark.com.au"
+    }
+  }
+}

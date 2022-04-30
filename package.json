@@ -1,0 +1,48 @@
+{
+  "name": "service.pricematch.backend",
+  "version": "0.0.1",
+  "description": "Includes CDK constructs and example applications for deploying Price Match Backend.",
+  "author": "David Dai",
+  "license": "UNLICENSED",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-cloudfront": "^1.122.0",
+    "@aws-cdk/aws-dynamodb": "^1.122.0",
+    "@aws-cdk/aws-route53-targets": "^1.122.0",
+    "@aws-cdk/aws-s3-deployment": "^1.122.0",
+    "@aws-cdk/aws-secretsmanager": "^1.142.0",
+    "@aws-cdk/core": "^1.122.0",
+    "@types/aws-lambda": "^8.10.92",
+    "@types/jest": "^27.0.3",
+    "@types/mocha": "^9.0.0",
+    "aws-sdk": "^2.1065.0",
+    "cdk": "^1.122.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.7.0",
+    "expect": "^27.4.2",
+    "express": "^4.17.2",
+    "jest": "^27.4.5",
+    "jsonschema": "^1.4.0",
+    "path": "^0.12.7",
+    "source-map-support": "^0.5.20",
+    "ts-jest": "^27.1.2",
+    "ts-node": "^10.2.1"
+  },
+  "scripts": {
+    "test": "jest --config ./jest.config.json --rootDir .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "py-loader": "^0.3.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.4"
+  }
+}
